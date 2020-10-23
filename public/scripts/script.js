@@ -1,5 +1,5 @@
 //create map
-const map = L.map('mapid').setView([51.505, -0.09], 11);
+const map = L.map('mapid').setView([-10.3431454,-48.3032651], 11);
 
 //create and add tileLayer
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png' ).addTo(map);
@@ -19,13 +19,13 @@ const popup = L.popup({
     className:'map-popup',
     minWidth:240,
     minHeight:240
-}).setContent('Lar das meninas <a href="orphanage.html?id=1" class="choose-orphanage"> <img src="./public/images/arrow-white.svg"> </a>')
+}).setContent('Casa do Paulo <a href="orphanage.html?id=1" class="choose-orphanage"> <img src="./public/images/arrow-white.svg"> </a>')
 
 //create and add marker
 
 
 L
-.marker([-10.3354898,-48.2996254],{icon})
+.marker([-10.3431454,-48.3032651],{icon})
 .addTo(map)
 .bindPopup(popup)
 
