@@ -1,5 +1,7 @@
 //create map
+
 const map = L.map('mapid').setView([-10.3431454,-48.3032651], 11);
+
 
 //create and add tileLayer
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png' ).addTo(map);
@@ -28,4 +30,6 @@ L
 .marker([-10.3431454,-48.3032651],{icon})
 .addTo(map)
 .bindPopup(popup)
+
+
 
