@@ -28,10 +28,9 @@
 
 Esse projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-- [Node.js](https://nodejs.org/en/)
-- [Express](https://expressjs.com/pt-br/)
-- [SQLite](https://www.sqlite.org/index.html)
-- [handlebars](https://handlebarsjs.com/)
+- [HTML]
+- [CSS]
+- [JavaScript]
 
 ## 💻 Projeto
 
@@ -54,4 +53,4 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 
 ---
 
-<p align="center">Desenvolvido com 💜 por Guilherme Capitão</p>
+<p align="center">Desenvolvido com 💜 por Paulo Gerson</p>
