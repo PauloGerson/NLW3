@@ -1,12 +1,12 @@
 //create map
 
-const map = L.map('mapid').setView([-10.3431454,-48.3032651], 11);
+const map = L.map('mapid').setView([25.0757595,54.947555,10], 11);
 
 
 //create and add tileLayer
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png' ).addTo(map);
 
-// create icon
+ // create icon
 const icon = L.icon({
     iconUrl: "./public/images/map-marker.svg",
     iconSize:[58,68],
@@ -16,20 +16,19 @@ const icon = L.icon({
 
 
 //create popup overlay
-const popup = L.popup({
+ const popup = L.popup({
     closeButton:false,
     className:'map-popup',
     minWidth:240,
     minHeight:240
-}).setContent('Casa do Paulo <a href="orphanage.html?id=1" class="choose-orphanage"> <img src="./public/images/arrow-white.svg"> </a>')
+}).setContent('Algum lugar <a href="orphanage.html?id=1" class="choose-orphanage"> <img src="./public/images/arrow-white.svg"> </a>') 
 
 //create and add marker
 
-
 L
-.marker([-10.3431454,-48.3032651],{icon})
+.marker([25.0757595,54.947555,10],{icon})
 .addTo(map)
 .bindPopup(popup)
-
+ 
 
 
